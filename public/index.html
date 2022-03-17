@@ -12,7 +12,7 @@
     <div class="root bg-primary-100">
         <div class="container">
             <header class="p-4 text-center">
-                <input class="border rounded w-[400px] p-1 outline-none" type="text" placeholder="Enter city">
+                <input class="input-el border rounded w-[400px] p-1 outline-none" type="text" placeholder="Enter city">
                 <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </header>
             <main class="bg-secondary__1 rounded p-4">
@@ -20,7 +20,7 @@
                 <div class="card flex rounded-t justify-between bg-[#31255a]">
                     <div class="flex opacity-80">
                         <i class="fa-solid fa-location-pin self-center pr-1"></i>
-                        <p>Manila, PH</p>
+                        <p class="loc-el">Manila, PH</p>
                     </div>
                     <div class="flex items-center justify-center gap-3">
                         <i class="fa-solid fa-grip-vertical opacity-80"></i>
@@ -39,14 +39,14 @@
                     </div>
                     <div class= "flex justify-between card bg-[#75b4e3]">
                         <div>
-                            <img src="./../icons/clear.svg" class ="w-40 ml-5"alt="">
+                            <img src="./../icons/clear.svg" class ="weather-ico w-40 ml-5"alt="">
                         </div>
-                        <div class="text-left w-[150px] h-[200px] leading-10 ">
+                        <div class=" text-left w-[150px] h-[200px] leading-10 ">
                             <p class="opacity-80 uppercase tracking-widest">Day</p>
-                            <p class="text-[1.75em]">-3</p>
-                            <p class="text-[1.75em]">Rain</p>
-                            <p class="text-lg">Wind: W 12 mph</p>
-                            <p class="text-lg">Humidity: 91%</p>
+                            <p class="temp text-[1.75em]">-3</p>
+                            <p class="main text-[1.75em]">Rain</p>
+                            <p class="wind-deg text-lg">Wind: W 12 mph</p>
+                            <p class="humidity text-lg">Humidity: 91%</p>
                         </div>
                         
                     </div>
@@ -68,6 +68,7 @@
         </div>
     </div>
     <!-- root ends here -->
-    <script src="https://kit.fontawesome.com/507b8a18c4.js" crossorigin="anonymous"></script
+    <script src="https://kit.fontawesome.com/507b8a18c4.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
